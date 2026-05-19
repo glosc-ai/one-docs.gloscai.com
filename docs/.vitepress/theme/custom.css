@@ -1,0 +1,8 @@
+.vp-doc img:not(.no-zoom) {
+  cursor: zoom-in;
+}
+
+.medium-zoom-overlay,
+.medium-zoom-image--opened {
+  z-index: 30;
+}
