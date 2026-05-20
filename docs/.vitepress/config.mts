@@ -12,12 +12,13 @@ export default defineConfig(
                 nav: [
                     { text: "Home", link: "/" },
                     { text: "API", link: "/api/0.index" },
+                    { text: "官网", link: "https://one.gloscai.com/" },
                 ],
 
                 socialLinks: [
                     {
                         icon: "github",
-                        link: "https://github.com/vuejs/vitepress",
+                        link: "https://github.com/glosc-ai/one-docs.gloscai.com",
                     },
                 ],
             },
