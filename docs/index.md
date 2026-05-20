@@ -11,8 +11,8 @@ hero:
       text: API 参考
       link: /api/0.index
     - theme: alt
-      text: AI 模型调用
-      link: /api/ai-model/
+      text: AI 应用
+      link: /apps/
 
 features:
   - title: 模型调用
