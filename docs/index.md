@@ -11,7 +11,7 @@ hero:
       text: API 参考
       link: /api/0.index
     - theme: alt
-      text: AI 应用
+      text: Glosc AI One 应用
       link: /apps/
 
 features:
