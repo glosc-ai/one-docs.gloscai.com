@@ -15,7 +15,7 @@ New API 可以作为 OpenAI 兼容网关接入多种 AI 客户端、机器人平
 
 | 应用                | 本地页面                                    | 主要用途                                                           |
 | ------------------- | ------------------------------------------- | ------------------------------------------------------------------ |
-| Gloss Mod Manager   | [Gloss Mod Manager](./glossmodmanager.md)   | 你的下一代 智能游戏模组 管理器                                     |
+| Gloss Mod Manager   | [Gloss Mod Manager](./GlossModManager.md)   | 你的下一代 智能游戏模组 管理器                                     |
 | AionUi              | [AionUi](./aionui.md)                       | 免费开源桌面办公 Agent，支持多代理、多模型、文件管理和预览。       |
 | CC Switch           | [CC Switch](./cc-switch.md)                 | Claude Code、Codex、Gemini CLI 的 Provider、MCP 和提示词统一管理。 |
 | Cherry Studio       | [Cherry Studio](./cherry-studio.md)         | 桌面 AI 客户端，支持多模型对话和图像能力。                         |
