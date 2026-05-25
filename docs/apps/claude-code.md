@@ -48,10 +48,10 @@ npm install -g @anthropic-ai/claude-code
 claude --version
 ```
 
-5. 配置 New API 环境变量。官方页面提供一键配置脚本：
+5. 配置 Claude Code 环境变量。可直接使用仓库内的一键配置脚本，脚本会默认把 `ANTHROPIC_BASE_URL` 设置为 `https://one.gloscai.com/v1`，并交互式要求输入 `AUTH_TOKEN` 和 `DEFAULT_MODEL`：
 
 ```powershell
-iex (irm 'https://raw.githubusercontent.com/QuantumNous/new-api-docs/refs/heads/main/helper/claude-cli-setup.ps1')
+iex (irm 'https://raw.githubusercontent.com/glosc-ai/one-docs.gloscai.com/main/scripts/claude-code-setup.ps1')
 ```
 
 6. 启动使用：
@@ -79,10 +79,10 @@ curl -fsSL https://claude.ai/install.sh | bash
 
 如安装提示需要添加 PATH，可按提示写入 shell 配置文件。
 
-2. 配置 New API 环境变量。官方页面提供一键配置脚本：
+2. 配置 Claude Code 环境变量。可直接使用仓库内的一键配置脚本，脚本会默认把 `ANTHROPIC_BASE_URL` 设置为 `https://one.gloscai.com/v1`，并交互式要求输入 `AUTH_TOKEN` 和 `DEFAULT_MODEL`：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/QuantumNous/new-api-docs/refs/heads/main/helper/claude-cli-setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/glosc-ai/one-docs.gloscai.com/main/scripts/claude-code-setup.sh | bash
 ```
 
 3. 验证安装：
@@ -124,10 +124,10 @@ curl -fsSL https://claude.ai/install.sh | bash
 claude --version
 ```
 
-3. 配置 New API 环境变量：
+3. 配置 Claude Code 环境变量：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/QuantumNous/new-api-docs/refs/heads/main/helper/claude-cli-setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/glosc-ai/one-docs.gloscai.com/main/scripts/claude-code-setup.sh | bash
 ```
 
 4. 启动使用：

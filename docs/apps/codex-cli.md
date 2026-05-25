@@ -60,10 +60,10 @@ nvm install 22
 npm i -g @openai/codex
 ```
 
-6. 修改配置文件。官方页面提供 Windows 一键配置脚本：
+6. 修改配置文件。可直接使用仓库内的一键配置脚本，脚本会默认把 Codex 的 `base_url` 设置为 `https://one.gloscai.com/v1`，并交互式要求输入 `AUTH_TOKEN` 和 `DEFAULT_MODEL`：
 
 ```powershell
-iex (irm 'https://raw.githubusercontent.com/QuantumNous/new-api-docs/refs/heads/main/helper/codex-cli-setup.ps1')
+iex (irm 'https://raw.githubusercontent.com/glosc-ai/one-docs.gloscai.com/main/scripts/codex-cli-setup.ps1')
 ```
 
 7. 启动 WSL 后运行 Codex：
@@ -113,10 +113,10 @@ npm install -g @openai/codex
 codex --version
 ```
 
-6. 修改配置文件。官方页面提供一键配置脚本：
+6. 修改配置文件。可直接使用仓库内的一键配置脚本，脚本会默认把 Codex 的 `base_url` 设置为 `https://one.gloscai.com/v1`，并交互式要求输入 `AUTH_TOKEN` 和 `DEFAULT_MODEL`：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/QuantumNous/new-api-docs/refs/heads/main/helper/codex-cli-setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/glosc-ai/one-docs.gloscai.com/main/scripts/codex-cli-setup.sh | bash
 ```
 
 7. 启动使用：
@@ -165,7 +165,7 @@ codex --version
 5. 修改配置文件：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/QuantumNous/new-api-docs/refs/heads/main/helper/codex-cli-setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/glosc-ai/one-docs.gloscai.com/main/scripts/codex-cli-setup.sh | bash
 ```
 
 6. 启动使用：

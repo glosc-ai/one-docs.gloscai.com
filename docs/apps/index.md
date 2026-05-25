@@ -13,22 +13,35 @@ New API 可以作为 OpenAI 兼容网关接入多种 AI 客户端、机器人平
 
 ## 支持的应用
 
-| 应用                | 本地页面                                    | 主要用途                                                           |
-| ------------------- | ------------------------------------------- | ------------------------------------------------------------------ |
-| Gloss Mod Manager   | [Gloss Mod Manager](./GlossModManager.md)   | 你的下一代 智能游戏模组 管理器                                     |
-| AionUi              | [AionUi](./aionui.md)                       | 免费开源桌面办公 Agent，支持多代理、多模型、文件管理和预览。       |
-| CC Switch           | [CC Switch](./cc-switch.md)                 | Claude Code、Codex、Gemini CLI 的 Provider、MCP 和提示词统一管理。 |
-| Cherry Studio       | [Cherry Studio](./cherry-studio.md)         | 桌面 AI 客户端，支持多模型对话和图像能力。                         |
-| DeepChat            | [DeepChat](./deepchat.md)                   | 全功能 AI Agent 客户端，支持 Deep Link 导入 Provider。             |
-| Memoh               | [Memoh](./memoh.md)                         | 容器化 AI 智能体平台，支持长期记忆、多渠道和 MCP。                 |
-| 流畅阅读 FluentRead | [流畅阅读](./fluent-read.md)                | 开源浏览器翻译插件，支持传统翻译和 AI 大模型翻译。                 |
-| OpenClaw            | [OpenClaw](./openclaw.md)                   | 自托管个人 AI 助手平台，支持多消息渠道和自定义模型 provider。      |
-| LangBot             | [LangBot](./langbot.md)                     | 即时通信机器人开发平台，支持知识库、Agent、MCP 和多平台机器人。    |
-| AstrBot             | [AstrBot](./astrbot.md)                     | 一站式 Agent 聊天机器人平台，可接入 QQ、飞书、钉钉、企业微信等。   |
-| LunaTranslator      | [LunaTranslator](./luna-translator.md)      | 开源 GalGame / 视觉小说翻译器，支持 HOOK、OCR 和大模型翻译。       |
-| Claude Code         | [Claude Code](./claude-code.md)             | Anthropic 终端编程助手，可通过环境变量对接 New API。               |
-| OpenAI Codex CLI    | [OpenAI Codex CLI](./codex-cli.md)          | 终端 AI 编程助手，可配置自有 OpenAI 兼容接入点。                   |
-| Factory Droid CLI   | [Factory Droid CLI](./factory-droid-cli.md) | Factory AI 的命令行软件工程助手，可配置第三方 API。                |
+| 应用                | 本地页面                                        | 主要用途                                                           |
+| ------------------- | ----------------------------------------------- | ------------------------------------------------------------------ |
+| Gloss Mod Manager   | [Gloss Mod Manager](./GlossModManager.md)       | 你的下一代 智能游戏模组 管理器                                     |
+| AionUi              | [AionUi](./aionui.md)                           | 免费开源桌面办公 Agent，支持多代理、多模型、文件管理和预览。       |
+| CC Switch           | [CC Switch](./cc-switch.md)                     | Claude Code、Codex、Gemini CLI 的 Provider、MCP 和提示词统一管理。 |
+| Cherry Studio       | [Cherry Studio](./cherry-studio.md)             | 桌面 AI 客户端，支持多模型对话和图像能力。                         |
+| DeepChat            | [DeepChat](./deepchat.md)                       | 全功能 AI Agent 客户端，支持 Deep Link 导入 Provider。             |
+| Memoh               | [Memoh](./memoh.md)                             | 容器化 AI 智能体平台，支持长期记忆、多渠道和 MCP。                 |
+| 流畅阅读 FluentRead | [流畅阅读](./fluent-read.md)                    | 开源浏览器翻译插件，支持传统翻译和 AI 大模型翻译。                 |
+| OpenClaw            | [OpenClaw](./openclaw.md)                       | 自托管个人 AI 助手平台，支持多消息渠道和自定义模型 provider。      |
+| LangBot             | [LangBot](./langbot.md)                         | 即时通信机器人开发平台，支持知识库、Agent、MCP 和多平台机器人。    |
+| AstrBot             | [AstrBot](./astrbot.md)                         | 一站式 Agent 聊天机器人平台，可接入 QQ、飞书、钉钉、企业微信等。   |
+| LunaTranslator      | [LunaTranslator](./luna-translator.md)          | 开源 GalGame / 视觉小说翻译器，支持 HOOK、OCR 和大模型翻译。       |
+| Claude Code         | [Claude Code](./claude-code.md)                 | Anthropic 终端编程助手，可通过环境变量对接 New API。               |
+| GitHub Copilot      | [GitHub Copilot](./github-copilot.md)           | VS Code Copilot Chat 与自定义 OpenAI 兼容接口的支持边界说明。      |
+| GitHub Copilot CLI  | [GitHub Copilot CLI](./github-copilot-cli.md)   | BYOK 模式终端 Agent，可通过环境变量接入自定义模型。                |
+| OpenAI Codex CLI    | [OpenAI Codex CLI](./codex-cli.md)              | 终端 AI 编程助手，可配置自有 OpenAI 兼容接入点。                   |
+| Factory Droid CLI   | [Factory Droid CLI](./factory-droid-cli.md)     | Factory AI 的命令行软件工程助手，可配置第三方 API。                |
+| Kilo Code           | [Kilo Code](./kilo-code.md)                     | 支持 CLI 和编辑器扩展的 AI 编程助手。                              |
+| WorkBuddy/CodeBuddy | [WorkBuddy/CodeBuddy](./workbuddy-codebuddy.md) | 支持通过本地 models.json 添加自定义模型。                          |
+| OpenCode            | [OpenCode](./opencode.md)                       | 开源 AI 编程助手，可通过配置文件接入 OpenAI 兼容自定义 provider。  |
+| Oh My Pi            | [Oh My Pi](./oh-my-pi.md)                       | 终端 AI 编程 Agent，可通过 models.yml 自定义 provider。            |
+| Deep Code           | [Deep Code](./deep-code.md)                     | 终端 AI 编程助手，支持深度思考和 Agent Skills。                    |
+| Hermes              | [Hermes](./hermes.md)                           | Nous Research 的自我进化 AI Agent，可配置 custom endpoint。        |
+| nanobot             | [nanobot](./nanobot.md)                         | 轻量级 AI 智能体，可通过 config.json 配置 provider。               |
+| Crush               | [Crush](./crush.md)                             | Charm 开源终端 AI 编程 Agent，支持多模型和 MCP。                   |
+| Pi                  | [Pi](./pi.md)                                   | 极简可扩展的终端编码框架，支持自定义 provider。                    |
+| Reasonix            | [Reasonix](./reasonix.md)                       | 终端编程 Agent，当前仅整理手动配置和支持边界。                     |
+| Langcli             | [Langcli](./langcli.md)                         | 支持 CLI 和 Zed ACP Agent 的 AI 编程助手。                         |
 
 ## 通用接入信息
 
