@@ -26,7 +26,7 @@ New API 提供 RESTful API 接口，主要分为两类：
 | -------- | ---------------------------------------------------------------------------------------------- |
 | Base URL | `https://one.gloscai.com/v1`，私有化部署时替换为自己的服务地址。                               |
 | 认证     | `Authorization: Bearer TOKEN`                                                                  |
-| 请求体   | JSON 接口通常使用 `Content-Type: application/json`；视频等接口可能使用 `multipart/form-data`。 |
+| 请求体   | JSON 接口使用 `Content-Type: application/json`；个别兼容接口可能使用 `multipart/form-data`。   |
 | 兼容性   | OpenAI 格式为主；部分接口会根据请求头或路径兼容 Anthropic、Gemini、Sora、Kling、即梦等格式。   |
 
 ```bash

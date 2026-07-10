@@ -26,5 +26,5 @@ https://one.gloscai.com/v1
 | --- | --- |
 | 认证 | `Authorization: Bearer sk-xxxxxx` |
 | JSON 请求体 | 使用 `Content-Type: application/json`。 |
-| 表单请求体 | 视频等接口可能使用 `multipart/form-data`。 |
+| 表单请求体 | 个别兼容接口可能使用 `multipart/form-data`；视频生成 API 推荐使用 JSON。 |
 | 兼容格式 | OpenAI 格式为主，部分接口兼容 Anthropic、Gemini、Sora、Kling、即梦等格式。 |
